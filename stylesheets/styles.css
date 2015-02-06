@@ -1,12 +1,15 @@
 @import url('http://fonts.googleapis.com/css?family=Lora');
 @import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 
+html {
+  font-size: 18px;
+}
+
 body {
   max-width: 900px;
   display: block;
   margin: auto;
   font-family: 'Lora', serif;
-  font-size: 18px;
 
   color: white;
 
@@ -14,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
