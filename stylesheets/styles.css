@@ -43,6 +43,10 @@ h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 ul {
   max-width: 60%;
   border-width: 1px;
@@ -63,6 +67,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+  transform: rotate(2deg);
 /*  transition-duration: 4s;
 */}
 
@@ -71,3 +76,32 @@ p:hover {
   transition-duration: 4s;
 */}
 
+span {
+  font-size: 30px;
+  font-weight: bold;
+  font-color: default;
+  transition-duration: 2s;
+  transition-property: font-color font-size;
+}
+
+span:hover {
+  font-size: 1000px;
+  font-color: none;
+  transition-duration: 1s;
+  transition-property: font-color font-size;
+
+}
+
+.planets li {
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  max-width: 100px;
+}
+
+.planets li:hover {
+  transform: rotate(180deg);
+  transition-duration: .25s;
+  transition-property: transform;
+  max-width: 100px;
+}
