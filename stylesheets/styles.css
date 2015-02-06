@@ -1,3 +1,6 @@
+@import url('http://fonts.googleapis.com/css?family=Lora');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
 body {
   max-width: 900px;
   display: block;
@@ -46,13 +49,13 @@ ul {
   border-color: white;
 }
 
-li {
+#main_content li {
   margin-left: 24px;
   font-size: 24px;
   line-height: 30px;
 }
 
-li:hover {
+#main_content li:hover {
   border: 5px solid pink;
 }
 
@@ -60,11 +63,11 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
-  transition-duration: 4s;
-}
+/*  transition-duration: 4s;
+*/}
 
 p:hover {
-  font-size: 48px;
+/*  font-size: 48px;
   transition-duration: 4s;
-}
+*/}
 
