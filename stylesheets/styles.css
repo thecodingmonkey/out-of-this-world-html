@@ -40,9 +40,7 @@ h1, h2, h3, h4 {
 }
 
 ul {
-  max-width: 60%;
-  border-width: 1px;
-  border-color: white;
+  max-width: 85%;
 }
 
 header li {
@@ -95,7 +93,26 @@ span {
   font-size: 30px;
   font-weight: bold;
   font-color: default;
-  transition-duration: 2s;
+/*  transition-duration: 2s;
   transition-property: font-color font-size;
+*/}
+
+#main_content section ul li:nth-child(54) {
+/*  color: red;
+*/}
+
+#main_content section ul li:nth-child(54):hover ul {
+/*  color: pink;
+*/  display: inline;
+  border: 0px;
 }
 
+#main_content section ul li:nth-child(54):hover {
+/*  color: pink;
+*/  display: inline;
+  border: 0px;
+}
+
+#main_content li:nth-child(54) ul {
+  display: none;
+}
