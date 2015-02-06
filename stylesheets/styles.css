@@ -1,0 +1,101 @@
+@import url('http://fonts.googleapis.com/css?family=Lora');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+
+html {
+  font-size: 18px;
+}
+
+body {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  font-family: 'Lora', serif;
+
+  color: white;
+
+  background: url("http://cdn4.sci-news.com/images/enlarge/image_1832e-El-Gordo-Galaxy-Cluster.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  color: #b0b0ff;
+  transition-duration: 1s;
+  /*transition-delay: 2s;*/
+  transition-property: color;
+
+}
+
+a:hover {
+  color: pink;
+  transition-duration: .5s;
+  /*transition-delay: 2s;*/
+  transition-property: color;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+ul {
+  max-width: 60%;
+  border-width: 1px;
+  border-color: white;
+}
+
+header li {
+  /*background-color: red;*/
+  display: block;
+}
+
+#main_content li {
+  display: inline;
+  margin-left: 24px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#main_content li:hover {
+  border: 5px solid pink;
+}
+
+.planets li {
+  display:inline-block;
+
+  transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-property: transform;
+  max-width: 100px;
+}
+
+.planets li:hover {
+  transform: rotate(360deg);
+  transition-duration: .25s;
+  transition-property: transform;
+  max-width: 100px;
+}
+
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+/*  transform: rotate(2deg);
+*//*  transition-duration: 4s;
+*/}
+
+p:hover {
+/*  font-size: 48px;
+  transition-duration: 4s;
+*/}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  font-color: default;
+  transition-duration: 2s;
+  transition-property: font-color font-size;
+}
+
