@@ -1,0 +1,70 @@
+body {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+
+  color: white;
+
+  background: url("http://cdn4.sci-news.com/images/enlarge/image_1832e-El-Gordo-Galaxy-Cluster.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: #b0b0ff;
+  transition-duration: 1s;
+  /*transition-delay: 2s;*/
+  transition-property: color;
+
+}
+
+a:hover {
+  color: pink;
+  transition-duration: 1s;
+  /*transition-delay: 2s;*/
+  transition-property: color;
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+ul {
+  max-width: 60%;
+  border-width: 1px;
+  border-color: white;
+}
+
+li {
+  margin-left: 24px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+li:hover {
+  border: 5px solid pink;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  transition-duration: 4s;
+}
+
+p:hover {
+  font-size: 48px;
+  transition-duration: 4s;
+}
+
